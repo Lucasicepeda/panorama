@@ -1,0 +1,243 @@
+* {
+  box-sizing: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: MADE Evolve Sans;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body header div.h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body header div.h1 .logo {
+  width: 310px;
+  margin: 17.13px 0px 0px 60px;
+}
+body header div.h1 .redLine {
+  height: 4px;
+  margin: 40px 60px 10px 60px;
+  width: 578.67px;
+}
+body header nav ul {
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-right: 40px;
+}
+body header nav ul li {
+  list-style: none;
+  margin: 20px 40px 0px 40px;
+}
+body header nav ul li:last-child {
+  color: #0066CC;
+}
+body header div.h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 70px;
+}
+body header div.h2 div {
+  display: flex;
+  flex-direction: column;
+}
+body header div.h2 div h1 {
+  font-family: MADE Evolve Sans;
+  font-size: 128px;
+  font-weight: 300;
+  line-height: 152px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  top: 250px;
+}
+body header div.h2 div h1 b {
+  font-weight: 700;
+}
+body header div.h2 div h4 {
+  margin-top: 300px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.095em;
+}
+body header div.h2 img {
+  width: 870px;
+}
+body main div.flecha {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+body main section.marcas {
+  display: flex;
+  justify-content: center;
+  background-color: #CC0000;
+}
+body main section.marcas h3 {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 74.11px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+body main section.marcas h3 span {
+  text-decoration: underline;
+}
+body main section.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body main section.video h3 {
+  margin: 100px 0px 30px 0px;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 74px;
+  text-align: center;
+}
+body main section.video h3 span {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #CC0000;
+          text-decoration-color: #CC0000;
+}
+body main section.video h5 {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin: 20px 621px;
+}
+body main section.video .iframe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10vh 0px;
+}
+body main section.video .iframe iframe {
+  border-radius: 7px;
+  box-shadow: 3px 3px 10px rgb(114, 113, 113);
+  width: 1000px;
+  height: 562.5px;
+}
+body main section.servicios h3 {
+  margin: 100px 0px 50px 0px;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 74px;
+  text-align: center;
+}
+body main section.servicios div.servs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 100px;
+  grid-row-gap: 100px;
+  margin: 10vh;
+}
+body main section.servicios div.servs div {
+  display: flex;
+}
+body main section.servicios div.servs div div > img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+body main section.servicios div.servs div div.txt {
+  display: flex;
+  flex-direction: column;
+}
+body main section.servicios div.servs div div.txt h4 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 37px;
+  margin-bottom: 30px;
+}
+body main section.servicios div.servs div div.txt h5 {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 23px;
+}
+body main section.quienesSomos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #CC0000;
+}
+body main section.quienesSomos h3 {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 74.11px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+body main section.quienesSomos h3 span {
+  text-decoration: underline;
+}
+body main section.quienesSomos h4 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 37px;
+  text-align: center;
+  color: white;
+  margin: 20px 575.5px;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+body footer div.f1 {
+  display: flex;
+  justify-content: space-around;
+}
+body footer div.f1 .mapsite {
+  display: flex;
+  align-content: space-evenly;
+}
+body footer div.f1 .mapsite div {
+  margin: 0px 30px;
+}
+body footer div.f1 .mapsite div p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 45px 0px 35px 0px;
+}
+body footer div.f1 .mapsite div ul li {
+  list-style: none;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28px;
+  margin: 10px 0px;
+}
+body footer .redes {
+  margin: 50px;
+}
+body footer .redes img {
+  width: 45px;
+  margin: 10px;
+}
+body footer div.f2 {
+  margin: 100px 0px 60px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+body footer div.f2 .col1 {
+  margin-right: 160px;
+}
+body footer div.f2 .col2 {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
