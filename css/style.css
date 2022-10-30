@@ -1,7 +1,8 @@
 * {
-  box-sizing: 0px;
-  margin: 0px;
-  padding: 0px;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  border: #0066CC solid 0.1px;
 }
 
 body {
@@ -81,8 +82,11 @@ body main div.flecha {
 }
 body main section.marcas {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background-color: #CC0000;
+  align-items: center;
+  position: relative;
 }
 body main section.marcas h3 {
   font-size: 64px;
@@ -91,9 +95,75 @@ body main section.marcas h3 {
   letter-spacing: 0em;
   text-align: left;
   color: white;
+  margin: 100px 0px;
 }
 body main section.marcas h3 span {
   text-decoration: underline;
+}
+body main section.marcas .swiper {
+  width: 85vw;
+}
+body main section.marcas .card {
+  position: relative;
+  margin: 100px 0px;
+  padding: 20px 0px 80px 0px;
+}
+body main section.marcas .card .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  z-index: 100;
+}
+body main section.marcas .card .image {
+  height: 340px;
+  width: 340px;
+  border-radius: 50%;
+}
+body main section.marcas .card .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+body main section.marcas .card .name-profession {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15%;
+  color: #493131;
+}
+body main section.marcas .name-profession .name {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+}
+body main section.marcas .name-profession .profession {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18px;
+}
+body main section.marcas .swiper-button-next,
+body main section.marcas .swiper-button-prev {
+  opacity: 0.7;
+  color: #FFFFFF;
+  transition: all 0.3s ease;
+}
+body main section.marcas .swiper-button-next {
+  margin-right: 50px;
+  margin-top: 90px;
+}
+body main section.marcas .swiper-button-prev {
+  margin-left: 50px;
+  margin-top: 90px;
+}
+body main section.marcas .swiper-button-next:hover,
+body main section.marcas .swiper-button-prev:hover {
+  opacity: 1;
+  color: #FFFFFF;
 }
 body main section.video {
   display: flex;
@@ -144,7 +214,7 @@ body main section.servicios div.servs {
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 100px;
   grid-row-gap: 100px;
-  margin: 10vh;
+  margin: 10vh 11vw;
 }
 body main section.servicios div.servs div {
   display: flex;
@@ -174,6 +244,9 @@ body main section.quienesSomos {
   flex-direction: column;
   align-items: center;
   background-color: #CC0000;
+  position: relative;
+  /*-- ===== SECTION CARD ===== */
+  /*-- ===== SECTION CARD ===== */
 }
 body main section.quienesSomos h3 {
   font-size: 64px;
@@ -182,6 +255,7 @@ body main section.quienesSomos h3 {
   letter-spacing: 0em;
   text-align: left;
   color: white;
+  margin-top: 100px;
 }
 body main section.quienesSomos h3 span {
   text-decoration: underline;
@@ -193,6 +267,74 @@ body main section.quienesSomos h4 {
   text-align: center;
   color: white;
   margin: 20px 575.5px;
+}
+body main section.quienesSomos .swiper {
+  width: 85vw;
+}
+body main section.quienesSomos .card {
+  position: relative;
+  background: #fff;
+  border-radius: 0px;
+  margin: 100px 0px;
+  padding: 20px 0px 80px 0px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+body main section.quienesSomos .card .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  z-index: 100;
+}
+body main section.quienesSomos .card .image {
+  height: 340px;
+  width: 340px;
+  border-radius: 50%;
+}
+body main section.quienesSomos .card .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+body main section.quienesSomos .card .name-profession {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15%;
+  color: #493131;
+}
+body main section.quienesSomos .name-profession .name {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+}
+body main section.quienesSomos .name-profession .profession {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18px;
+}
+body main section.quienesSomos .swiper-button-next,
+body main section.quienesSomos .swiper-button-prev {
+  opacity: 0.7;
+  color: #FFFFFF;
+  transition: all 0.3s ease;
+}
+body main section.quienesSomos .swiper-button-next {
+  margin-right: 50px;
+  margin-top: 90px;
+}
+body main section.quienesSomos .swiper-button-prev {
+  margin-left: 50px;
+  margin-top: 90px;
+}
+body main section.quienesSomos .swiper-button-next:hover,
+body main section.quienesSomos .swiper-button-prev:hover {
+  opacity: 1;
+  color: #FFFFFF;
 }
 body footer {
   display: flex;
@@ -234,10 +376,15 @@ body footer div.f2 {
   margin: 100px 0px 60px 0px;
   display: flex;
   justify-content: space-around;
+  align-content: flex-end;
 }
 body footer div.f2 .col1 {
   margin-right: 160px;
 }
 body footer div.f2 .col2 {
   display: flex;
+  align-items: flex-end;
+}
+body footer div.f2 .col2 p {
+  margin-left: 20px;
 }/*# sourceMappingURL=style.css.map */
